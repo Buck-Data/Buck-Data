@@ -107,15 +107,6 @@ Repository
 - Created documentation for product teams  
 - Translated business needs into technical tasks
 
-
----
-
-# GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Buck-Data&show_icons=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Buck-Data)
-
 ---
 
 # Currently Learning
