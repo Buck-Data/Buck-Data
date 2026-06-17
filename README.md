@@ -41,6 +41,70 @@ Currently focusing on **advanced analytics and data engineering fundamentals.**
 
 # Featured Projects
 
+#Supply-Chain
+
+**Ziel**  
+Eine vollautomatisierte Datenpipeline aufbauen, die Formel-1-Renndaten von der Rohdatenquelle bis zum interaktiven Dashboard verarbeitet — ohne manuelle Eingriffe.
+
+**Zusammenfassugn**
+Daten aus 10 OpenF1-API-Endpunkten werden wöchentlich inkrementell abgerufen, in einem DuckDB-Warehouse gespeichert und über dbt in ein Sternschema transformiert. Power BI liest die exportierten Parquet-Dateien und aktualisiert das Dashboard automatisch nach jedem Rennwochenende.
+
+**Interaktives Dashboard Ausschnitte**
+
+**Methodik**
+
+• Inkrementelles Laden via State-Tracking — nur neue Sessions werden abgerufen
+• Parallele API-Abfragen mit 4 Workern (~4x schneller als sequentiell)
+• Zweischichtiges dbt-Modell: Staging (Bereinigung) → Sternschema (Dims + Facts)
+• 69 automatisierte Datentests (not_null, unique, referentielle Integrität, Geschäftslogik)
+• Wöchentliche CI/CD-Pipeline via GitHub Actions (jeden Montag 06:00 UTC)
+
+**Key Insights**
+
+• Reifenstrategie und Stint-Längen haben messbaren Einfluss auf Rundenzeiten
+• Wetterbedingungen (Temperatur, Luftfeuchtigkeit) korrelieren mit Sektorzeiten
+• WM-Standings lassen sich pro Rennen verfolgen und visuell vergleichen
+
+**Tech**
+
+Python • DuckDB • dbt Core • Power BI • GitHub Actions
+
+
+#F1 Analytics – End-to-End Datenpipeline
+
+**Ziel**  
+Eine vollautomatisierte Datenpipeline aufbauen, die Formel-1-Renndaten von der Rohdatenquelle bis zum interaktiven Dashboard verarbeitet — ohne manuelle Eingriffe.
+
+**Zusammenfassugn**
+Daten aus 10 OpenF1-API-Endpunkten werden wöchentlich inkrementell abgerufen, in einem DuckDB-Warehouse gespeichert und über dbt in ein Sternschema transformiert. Power BI liest die exportierten Parquet-Dateien und aktualisiert das Dashboard automatisch nach jedem Rennwochenende.
+
+**Interaktives Dashboard Ausschnitte**
+
+**Methodik**
+
+• Inkrementelles Laden via State-Tracking — nur neue Sessions werden abgerufen
+• Parallele API-Abfragen mit 4 Workern (~4x schneller als sequentiell)
+• Zweischichtiges dbt-Modell: Staging (Bereinigung) → Sternschema (Dims + Facts)
+• 69 automatisierte Datentests (not_null, unique, referentielle Integrität, Geschäftslogik)
+• Wöchentliche CI/CD-Pipeline via GitHub Actions (jeden Montag 06:00 UTC)
+
+**Key Insights**
+
+• Reifenstrategie und Stint-Längen haben messbaren Einfluss auf Rundenzeiten
+• Wetterbedingungen (Temperatur, Luftfeuchtigkeit) korrelieren mit Sektorzeiten
+• WM-Standings lassen sich pro Rennen verfolgen und visuell vergleichen
+
+**Tech**
+
+Python • DuckDB • dbt Core • Power BI • GitHub Actions
+
+
+
+
+
+
+
+
 # Customer Churn Prediction
 
 **Goal**  
