@@ -41,7 +41,7 @@ Currently focusing on **advanced analytics and data engineering fundamentals.**
 
 # Featured Projects
 
-#Supply-Chain
+# [Supply-Chain Resilience End-To-End Projekt](https://github.com/Buck-Data/Supply-Chain-Projekt)
 
 **Ziel**  
 Eine vollautomatisierte Datenpipeline aufbauen, die Formel-1-Renndaten von der Rohdatenquelle bis zum interaktiven Dashboard verarbeitet — ohne manuelle Eingriffe.
@@ -70,7 +70,7 @@ Daten aus 10 OpenF1-API-Endpunkten werden wöchentlich inkrementell abgerufen, i
 Python • DuckDB • dbt Core • Power BI • GitHub Actions
 
 
-#F1 Analytics – End-to-End Datenpipeline
+# F1 Analytics – End-to-End Datenpipeline
 
 **Ziel**  
 Eine vollautomatisierte Datenpipeline aufbauen, die Formel-1-Renndaten von der Rohdatenquelle bis zum interaktiven Dashboard verarbeitet — ohne manuelle Eingriffe.
@@ -97,9 +97,6 @@ Daten aus 10 OpenF1-API-Endpunkten werden wöchentlich inkrementell abgerufen, i
 **Tech**
 
 Python • DuckDB • dbt Core • Power BI • GitHub Actions
-
-
-
 
 
 
