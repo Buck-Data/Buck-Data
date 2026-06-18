@@ -67,7 +67,7 @@ Daten aus 10 OpenF1-API-Endpunkten werden wöchentlich inkrementell abgerufen, i
 Python • DuckDB • dbt Core • Power BI • GitHub Actions
 
 
-# F1 Analytics – End-to-End Datenpipeline
+# [F1 Analytics – End-to-End Datenpipeline](https://github.com/Buck-Data/F1-End-to-End-Project)
 <p align="center">
   <img src="F1_Projekt.png" width="100%" alt="F1 Projekt Screenshots" />
 </p>
