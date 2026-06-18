@@ -43,7 +43,7 @@ Currently focusing on **advanced analytics and data engineering fundamentals.**
 
 # [Supply-Chain Resilience End-To-End Projekt](https://github.com/Buck-Data/Supply-Chain-Projekt)
 <p align="center">
-  <img src="Supply_Chain.png" width="1000" alt="Supply Chain Projekt Screenshots" />
+  <img src="Supply_Chain.png" width="1500" alt="Supply Chain Projekt Screenshots" />
 </p>
 
 **Ziel**  
