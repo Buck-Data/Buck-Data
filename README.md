@@ -5,9 +5,9 @@
 
 # 🦌 Marcel Buck
 
-**Data Analyst | Python • SQL • Excel • Power BI • Snowflake**
+**Data Analyst | Python • SQL • Excel • Power BI • Snowflake • DuckDb**
 
-Master’s Degree in Information Systems (Wirtschaftsinformatik)  
+Master Abschluss Wirtschaftsinformatik
 
 Combining business understanding with data analytics.
 
@@ -16,7 +16,7 @@ Combining business understanding with data analytics.
 
 ---
 
-# About Me
+# Über mich
 
 I help companies understand their data and turn it into actionable insights.
 
@@ -33,7 +33,7 @@ Currently focusing on **advanced analytics and data engineering fundamentals.**
 
 ---
 
-# Featured Projects
+# Projekte
 
 # [Supply-Chain Resilience End-To-End Projekt](https://github.com/Buck-Data/Supply-Chain-Projekt)
 <p align="center">
@@ -132,7 +132,7 @@ Repository
 
 ---
 
-# Tech Stack
+# Modern Data Stack
 
 ### Data & Machine Learning
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -154,7 +154,7 @@ Repository
 
 ---
 
-# Background
+# Berufserfahrung
 
 ### Business Development – Working Student
 
@@ -170,7 +170,7 @@ Repository
 
 ---
 
-# Currently Learning
+# Derzeit am Lernen
 
 • Advanced SQL for analytics  
 • Data engineering fundamentals  
@@ -178,7 +178,7 @@ Repository
 
 ---
 
-# Open To
+# Offen für
 
 Data Analyst  
 Business Intelligence Analyst  
