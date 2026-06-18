@@ -2,192 +2,186 @@
   <img src="Banner.png" width="100%" />
 </p>
 
+<h1 align="center">Marcel Buck</h1>
 
-# 🦌 Marcel Buck
-
-**Data Analyst | Python • SQL • Excel • Power BI • Snowflake • DuckDb**
-
-Master Abschluss Wirtschaftsinformatik
-
-Combining business understanding with data analytics.
-
-📍 Germany  
-📊 Data • BI • Predictive Analytics
-
----
-
-# Über mich
-
-I help companies understand their data and turn it into actionable insights.
-
-Before moving deeper into data analytics, I gained experience in **Business Development as a Working Student**, where I worked closely with business teams, market analysis and growth strategies.
-
-This experience helps me connect **data insights with real business impact.**
-
-• Build dashboards used by decision-makers  
-• Analyze datasets to uncover trends and opportunities  
-• Develop machine learning models to predict outcomes  
-• Communicate insights clearly to technical and non-technical stakeholders  
-
-Currently focusing on **advanced analytics and data engineering fundamentals.**
-
----
-
-# Projekte
-
-# [Supply-Chain Resilience End-To-End Projekt](https://github.com/Buck-Data/Supply-Chain-Projekt)
 <p align="center">
-  <img src="Supply_Chain.png" width="1500" alt="Supply Chain Projekt Screenshots" />
+  <strong>Data Analyst · M.Sc. Wirtschaftsinformatik</strong><br/>
+  Python &nbsp;•&nbsp; SQL &nbsp;•&nbsp; Power BI &nbsp;•&nbsp; dbt &nbsp;•&nbsp; DuckDB &nbsp;•&nbsp; Snowflake
 </p>
 
-**Ziel**  
-Eine vollautomatisierte Datenpipeline aufbauen, die Formel-1-Renndaten von der Rohdatenquelle bis zum interaktiven Dashboard verarbeitet — ohne manuelle Eingriffe.
-
-**Zusammenfassugn**
-Daten aus 10 OpenF1-API-Endpunkten werden wöchentlich inkrementell abgerufen, in einem DuckDB-Warehouse gespeichert und über dbt in ein Sternschema transformiert. Power BI liest die exportierten Parquet-Dateien und aktualisiert das Dashboard automatisch nach jedem Rennwochenende.
-
-**Interaktives Dashboard Ausschnitte**
-
-**Methodik**
-
-• Inkrementelles Laden via State-Tracking — nur neue Sessions werden abgerufen
-• Parallele API-Abfragen mit 4 Workern (~4x schneller als sequentiell)
-• Zweischichtiges dbt-Modell: Staging (Bereinigung) → Sternschema (Dims + Facts)
-• 69 automatisierte Datentests (not_null, unique, referentielle Integrität, Geschäftslogik)
-• Wöchentliche CI/CD-Pipeline via GitHub Actions (jeden Montag 06:00 UTC)
-
-**Key Insights**
-
-• Reifenstrategie und Stint-Längen haben messbaren Einfluss auf Rundenzeiten
-• Wetterbedingungen (Temperatur, Luftfeuchtigkeit) korrelieren mit Sektorzeiten
-• WM-Standings lassen sich pro Rennen verfolgen und visuell vergleichen
-
-**Tech**
-
-Python • DuckDB • dbt Core • Power BI • GitHub Actions
-
-
-# [F1 Analytics – End-to-End Datenpipeline](https://github.com/Buck-Data/F1-End-to-End-Project)
 <p align="center">
-  <img src="F1_Projekt.png" width="100%" alt="F1 Projekt Screenshots" />
+  <a href="https://linkedin.com/in/marcel-buck-122327233/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Status-Offen_für_neue_Rollen-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Standort-Deutschland_·_Remote-blue?style=for-the-badge" />
 </p>
-
-**Ziel**  
-Eine vollautomatisierte Datenpipeline aufbauen, die Formel-1-Renndaten von der Rohdatenquelle bis zum interaktiven Dashboard verarbeitet — ohne manuelle Eingriffe.
-
-**Zusammenfassugn**
-Daten aus 10 OpenF1-API-Endpunkten werden wöchentlich inkrementell abgerufen, in einem DuckDB-Warehouse gespeichert und über dbt in ein Sternschema transformiert. Power BI liest die exportierten Parquet-Dateien und aktualisiert das Dashboard automatisch nach jedem Rennwochenende.
-
-**Interaktives Dashboard Ausschnitte**
-
-**Methodik**
-
-• Inkrementelles Laden via State-Tracking — nur neue Sessions werden abgerufen
-• Parallele API-Abfragen mit 4 Workern (~4x schneller als sequentiell)
-• Zweischichtiges dbt-Modell: Staging (Bereinigung) → Sternschema (Dims + Facts)
-• 69 automatisierte Datentests (not_null, unique, referentielle Integrität, Geschäftslogik)
-• Wöchentliche CI/CD-Pipeline via GitHub Actions (jeden Montag 06:00 UTC)
-
-**Key Insights**
-
-• Reifenstrategie und Stint-Längen haben messbaren Einfluss auf Rundenzeiten
-• Wetterbedingungen (Temperatur, Luftfeuchtigkeit) korrelieren mit Sektorzeiten
-• WM-Standings lassen sich pro Rennen verfolgen und visuell vergleichen
-
-**Tech**
-
-Python • DuckDB • dbt Core • Power BI • GitHub Actions
-
-
-
-
-
-# Customer Churn Prediction
-
-**Goal**  
-Predict which customers are likely to cancel their subscription.
-
-**Approach**
-
-• Data cleaning and preprocessing in Python  
-• Exploratory data analysis  
-• Classification model using Scikit-Learn
-
-**Results**
-
-ROC-AUC: **0.87**
-
-**Key Insights**
-
-• Low engagement users far more likely to churn  
-• Pricing tier strongly correlates with cancellations
-
-**Tech**
-
-Python • Pandas • Scikit-Learn • PostgreSQL
-
-**Project**
-
-Repository
 
 ---
 
-# Modern Data Stack
+## Über mich
 
-### Data & Machine Learning
+M.Sc. Wirtschaftsinformatik mit Fokus auf **End-to-End-Datenprojekte** — von der automatisierten Pipeline bis zum Dashboard, das Entscheidungsträger tatsächlich öffnen.
+
+Mein Hintergrund im **Business Development** gibt mir ein Gespür dafür, welche Datenfragen wirklich geschäftskritisch sind — und wie man Ergebnisse so kommuniziert, dass sie auch gehört werden.
+
+- Entwickle und automatisiere **Datenpipelines** (Python · dbt · GitHub Actions)
+- Baue **BI-Dashboards** für Entscheidungsträger (Power BI · Tableau)
+- Entwickle **ML-Vorhersagemodelle** mit messbarem Ergebnis (ROC-AUC 0.87+)
+- Kommuniziere Insights klar — an technische und nicht-technische Stakeholder
+
+---
+
+## Tech Stack
+
+### Analyse & Machine Learning
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy)
 ![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikitlearn)
 
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+### Datenbanken & Warehousing
+![DuckDB](https://img.shields.io/badge/DuckDB-FDD023?style=for-the-badge&logo=duckdb&logoColor=black)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Data Visualization
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel)
+### BI & Visualisierung
 ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel)
 
-### Tools
-[![Tools](https://skillicons.dev/icons?i=git,github,vscode&theme=light)](https://skillicons.dev)
-
----
-
-# Berufserfahrung
-
-### Business Development – Working Student
-
-- Automated lead research workflow  
-- Supported sales and growth initiatives  
-- Worked closely with stakeholders and data  
-
-### Requirements Engineering – Intern
-
-- Collected and structured business requirements  
-- Created documentation for product teams  
-- Translated business needs into technical tasks
+### Data Engineering & Tools
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+[![Tools](https://skillicons.dev/icons?i=git,github,vscode&theme=dark)](https://skillicons.dev)
 
 ---
 
-# Derzeit am Lernen
+## GitHub Aktivität
 
-• Advanced SQL for analytics  
-• Data engineering fundamentals  
-• Production machine learning workflows  
-
----
-
-# Offen für
-
-Data Analyst  
-Business Intelligence Analyst  
-Junior Data Scientist  
-
-Remote • Germany • EU
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Buck-Data&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Buck-Data&layout=compact&theme=dark&hide_border=true" height="170" />
+</p>
 
 ---
 
-# 🤝 Connect With Me
+## Projekte
 
-[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/marcel-buck-122327233/)
+### [Supply-Chain Resilience – End-to-End Projekt](https://github.com/Buck-Data/Supply-Chain-Projekt)
+
+<p align="center">
+  <img src="Supply_Chain.png" width="100%" alt="Supply Chain Projekt" />
+</p>
+
+| | |
+|---|---|
+| **Problem** | Lieferkettendaten lagen verteilt und unstrukturiert vor — kein zentrales Bild der Supply-Chain-Lage |
+| **Lösung** | Vollautomatisierte End-to-End-Pipeline: Rohdaten → DuckDB Warehouse → dbt → Power BI Dashboard |
+| **Impact** | Dashboard aktualisiert sich automatisch — Entscheidungsträger sehen KPIs in Echtzeit |
+
+**Methodik**
+
+- Inkrementelles Laden via State-Tracking — nur neue Datensätze werden verarbeitet
+- Parallele Datenabfragen mit 4 Workern (~4x schneller als sequentiell)
+- Zweischichtiges dbt-Modell: Staging (Bereinigung) → Sternschema (Dims + Facts)
+- 69 automatisierte Datentests (not_null, unique, referentielle Integrität, Geschäftslogik)
+- Wöchentliche CI/CD-Pipeline via GitHub Actions
+
+**Wichtige Erkenntnisse**
+
+- Lieferverzögerungen lassen sich auf Engpasslieferanten und kritische Routen zurückführen
+- Lagerbestände und Vorlaufzeiten korrelieren messbar mit Saisonalität
+- KPI-Tracking pro Lieferant ermöglicht datenbasierte Lieferantensteuerung
+
+`Python` `DuckDB` `dbt Core` `Power BI` `GitHub Actions`
+
+---
+
+### [F1 Analytics – End-to-End Datenpipeline](https://github.com/Buck-Data/F1-End-to-End-Project)
+
+<p align="center">
+  <img src="F1_Projekt.png" width="100%" alt="F1 Projekt" />
+</p>
+
+| | |
+|---|---|
+| **Problem** | Formel-1-Renndaten manuell abrufen und auswerten — ineffizient und fehleranfällig |
+| **Lösung** | Vollautomatisierte Pipeline: 10 OpenF1-API-Endpunkte → DuckDB Warehouse → dbt → Power BI |
+| **Impact** | Dashboard aktualisiert sich automatisch nach jedem Rennwochenende — null manueller Aufwand |
+
+**Methodik**
+
+- Inkrementelles Laden via State-Tracking — nur neue Sessions werden abgerufen
+- Parallele API-Abfragen mit 4 Workern (~4x schneller als sequentiell)
+- Zweischichtiges dbt-Modell: Staging (Bereinigung) → Sternschema (Dims + Facts)
+- 69 automatisierte Datentests (not_null, unique, referentielle Integrität, Geschäftslogik)
+- Wöchentliche CI/CD-Pipeline via GitHub Actions (jeden Montag 06:00 UTC)
+
+**Wichtige Erkenntnisse**
+
+- Reifenstrategie und Stint-Längen haben messbaren Einfluss auf Rundenzeiten
+- Wetterbedingungen (Temperatur, Luftfeuchtigkeit) korrelieren mit Sektorzeiten
+- WM-Standings lassen sich pro Rennen verfolgen und visuell vergleichen
+
+`Python` `DuckDB` `dbt Core` `Power BI` `GitHub Actions`
+
+---
+
+### Kundenabwanderungs-Vorhersage
+
+| | |
+|---|---|
+| **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
+| **Lösung** | Klassifikationsmodell in Python zur Vorhersage individuellen Abwanderungsrisikos |
+| **Ergebnis** | ROC-AUC: **0.87** |
+
+**Wichtige Erkenntnisse**
+
+- Nutzer mit geringem Engagement kündigen deutlich häufiger
+- Preisstufe korreliert stark mit Kündigungen
+
+`Python` `Pandas` `Scikit-Learn` `PostgreSQL`
+
+---
+
+## Berufserfahrung
+
+### Business Development & Process Automation – Werkstudent
+
+- Lead-Recherche-Workflow automatisiert → messbare Zeitersparnis für das Vertriebsteam
+- Marktanalysen und Wachstumsstrategien direkt mit Stakeholdern erarbeitet
+
+### Requirements Engineering – Praktikant
+
+- Geschäftsanforderungen strukturiert erhoben und dokumentiert
+- Anforderungen in technische Spezifikationen übersetzt
+- Als Schnittstelle zwischen Business und Entwicklungsteam agiert
+
+---
+
+## Derzeit am Lernen
+
+`Advanced SQL für Analytics` &nbsp;·&nbsp; `Data Engineering` &nbsp;·&nbsp; `Production ML Pipelines`
+
+---
+
+## Verfügbar für
+
+**Data Analyst · Business Intelligence Analyst · Junior Data Scientist**
+
+📍 Remote · Deutschland · EU
+
+---
+
+## 🤝 Kontakt
+
+<p align="center">
+  <a href="https://linkedin.com/in/marcel-buck-122327233/">
+    <img src="https://img.shields.io/badge/LinkedIn_–_Marcel_Buck-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:buckdevelopmentmarcel@gmail.com">
+    <img src="https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
