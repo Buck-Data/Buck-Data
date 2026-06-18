@@ -33,12 +33,6 @@ Currently focusing on **advanced analytics and data engineering fundamentals.**
 
 ---
 
-# Proof of Work
-
-
-
----
-
 # Featured Projects
 
 # [Supply-Chain Resilience End-To-End Projekt](https://github.com/Buck-Data/Supply-Chain-Projekt)
