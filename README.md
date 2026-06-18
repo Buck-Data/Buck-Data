@@ -74,6 +74,9 @@ Python • DuckDB • dbt Core • Power BI • GitHub Actions
 
 
 # F1 Analytics – End-to-End Datenpipeline
+<p align="center">
+  <img src="F1_Projekt.png" width="100%" alt="F1 Projekt Screenshots" />
+</p>
 
 **Ziel**  
 Eine vollautomatisierte Datenpipeline aufbauen, die Formel-1-Renndaten von der Rohdatenquelle bis zum interaktiven Dashboard verarbeitet — ohne manuelle Eingriffe.
