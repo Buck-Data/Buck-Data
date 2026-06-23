@@ -126,7 +126,7 @@ Was ich bisher gebaut habe:
 
 ---
 
-### Kundenabwanderungs-Vorhersage
+### [Kundenabwanderungs-Vorhersage](https://github.com/Buck-Data/churn-analysis)
 
 <p align="center">
   <img src="Streamlit.png" width="100%" alt="Kundenabwanderung-Projekt" />
@@ -148,7 +148,11 @@ Was ich bisher gebaut habe:
 
 ---
 
-### TDWI 2025 - Student Corner Projekt - AIoT im Wassermanagement
+### [TDWI 2025 - Student Corner Projekt - AIoT im Wassermanagement] (https://github.com/Buck-Data/AIoT-Smart-Irrigation-System)
+
+<p align="center">
+  <img src="Concept_Poster.png" width="100%" alt="TDWI Projekt" />
+</p>
 
 | | |
 |---|---|
