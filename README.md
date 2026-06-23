@@ -48,21 +48,12 @@ Mein Hintergrund im **Business Development** gibt mir ein Gespür dafür, welche
 
 ### BI & Visualisierung
 ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau)
+![PowerPoint](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel)
 
 ### Data Engineering & Tools
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 [![Tools](https://skillicons.dev/icons?i=git,github,vscode&theme=dark)](https://skillicons.dev)
-
----
-
-## GitHub Aktivität
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Buck-Data&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Buck-Data&layout=compact&theme=dark&hide_border=true" height="170" />
-</p>
 
 ---
 
