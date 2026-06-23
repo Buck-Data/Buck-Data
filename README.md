@@ -21,14 +21,9 @@
 
 ## Über mich
 
-M.Sc. Wirtschaftsinformatik mit Fokus auf **End-to-End-Datenprojekte** — von der automatisierten Pipeline bis zum Dashboard, das Entscheidungsträger tatsächlich öffnen.
-
-Mein Hintergrund im **Business Development** gibt mir ein Gespür dafür, welche Datenfragen wirklich geschäftskritisch sind — und wie man Ergebnisse so kommuniziert, dass sie auch gehört werden.
-
-- Entwickle und automatisiere **Datenpipelines** (Python · dbt · GitHub Actions)
-- Baue **BI-Dashboards** für Entscheidungsträger (Power BI · Tableau)
-- Entwickle **ML-Vorhersagemodelle** mit messbarem Ergebnis (ROC-AUC 0.87+)
-- Kommuniziere Insights klar — an technische und nicht-technische Stakeholder
+M.Sc. Wirtschaftsinformatik mit klarem Fokus auf den Datenbereich. Ich baue End-to-End-Datenprojekte von der Pipeline bis zum Dashboard und will die gesamte Werkzeugkette solide aufbauen, bevor ich mich spezialisiere. Wohin die Spezialisierung geht, ob Power BI, Data Engineering, Consulting oder Cloud, will ich aus der Praxis heraus entscheiden.
+Was mich auszeichnet: Ich arbeite mich schnell in neue Tools ein und gehe Datenprojekte mit echtem Interesse an der Sache an. Ich bleibe gerne am Zahn der Zeit und probiere neue Technologien aus, um Prozesse effizienter zu gestalten. Dabei gehe ich bedacht und verantwortungsvoll vor und prüfe die Ergebnisse immer kritisch, statt sie blind zu übernehmen.
+Aus meinem Praktikum im Requirements Engineering und meiner Masterarbeit, einer Anforderungsanalyse für Datenplattformen im Metallschrott-Recycling, bringe ich etwas mit, das viele technische Profile nicht haben: Ich höre zuerst zu und verstehe die Anforderungen der Stakeholder, bevor ich baue. Das Ergebnis sind Lösungen, die tatsächlich genutzt werden statt an den Interessen der Nutzer vorbeizulaufen.
 
 ---
 
@@ -52,7 +47,9 @@ Mein Hintergrund im **Business Development** gibt mir ein Gespür dafür, welche
 
 ### Data Engineering & Tools
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-[![Tools](https://skillicons.dev/icons?i=git,github,vscode&theme=dark)](https://skillicons.dev)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
