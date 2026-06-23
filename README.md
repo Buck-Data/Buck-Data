@@ -128,6 +128,11 @@ Was ich bisher gebaut habe:
 
 ### Kundenabwanderungs-Vorhersage
 
+<p align="center">
+  <img src="Streamlit.png" width="100%" alt="Kundenabwanderung-Projekt" />
+</p>
+
+
 | | |
 |---|---|
 | **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
