@@ -212,18 +212,18 @@ Was ich bisher gebaut habe:
 
 ## Berufserfahrung
 
-### Business Development & Process Automation – Werkstudent
+### Werkstudent Business Development & Process Automation
+*Juli 2023 – Mai 2026 · Stuttgart*
 
-- Lead-Recherche-Workflow automatisiert → messbare Zeitersparnis für das Vertriebsteam
-- Marktanalysen und Wachstumsstrategien direkt mit Stakeholdern erarbeitet
+- B2B-Rechercheprozesse mit n8n und KI-Agenten automatisiert (Lead-Qualifizierung, Zielaccount-Identifikation) → manueller Aufwand von mehreren Tagen auf wenige Stunden reduziert
+- Zielaccounts in Manufacturing & Automotive auf Einsatzpotenziale analysiert und für Vertrieb und Management aufbereitet
+- Prozessanforderungen mit den Fachbereichen erhoben und in automatisierte Workflows übersetzt
 
-### Requirements Engineering – Praktikant
+### Praktikum Requirements Engineering & Bachelorarbeit
+*September 2022 – Juni 2023 · Stuttgart*
 
-- Geschäftsanforderungen strukturiert erhoben und dokumentiert
-- Anforderungen in technische Spezifikationen übersetzt
-- Als Schnittstelle zwischen Business und Entwicklungsteam agiert
-
----
+- Business Requirements gemeinsam mit Stakeholdern erhoben, strukturiert und in technische User Stories (Scrum) übersetzt
+- Marktanalyse zu Android Automotive Apps im Rahmen der Bachelorarbeit: Marktpotenzial, technische Anforderungen und strategische Handlungsempfehlungen
 
 ## Derzeit am Lernen
 
