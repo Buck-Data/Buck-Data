@@ -25,6 +25,14 @@ M.Sc. Wirtschaftsinformatik mit klarem Fokus auf den Datenbereich. Ich baue End-
 Was mich auszeichnet: Ich arbeite mich schnell in neue Tools ein und gehe Datenprojekte mit echtem Interesse an der Sache an. Ich bleibe gerne am Zahn der Zeit und probiere neue Technologien aus, um Prozesse effizienter zu gestalten. Dabei gehe ich bedacht und verantwortungsvoll vor und prüfe die Ergebnisse immer kritisch, statt sie blind zu übernehmen.
 Aus meinem Praktikum im Requirements Engineering und meiner Masterarbeit, einer Anforderungsanalyse für Datenplattformen im Metallschrott-Recycling, bringe ich etwas mit, das viele technische Profile nicht haben: Ich höre zuerst zu und verstehe die Anforderungen der Stakeholder, bevor ich baue. Das Ergebnis sind Lösungen, die tatsächlich genutzt werden statt an den Interessen der Nutzer vorbeizulaufen.
 
+Was ich bisher gebaut habe:
+
+- **Supply-Chain Resilience** — End-to-End-Pipeline, die verstreute Lieferkettendaten automatisiert in ein Power-BI-Dashboard bringt und Engpasslieferanten sowie kritische Routen sichtbar macht.
+- **F1 Analytics** — End-To-End Projekt, das nach jedem Rennwochenende Daten aus 10 OpenF1-API-Endpunkten zieht und Strategie-, Wetter- und WM-Einblicke ohne manuellen Aufwand aktualisiert.
+- **Kundenabwanderungs-Vorhersage** — Klassifikationsmodell, das individuelles Abwanderungsrisiko vorhersagt (ROC-AUC 0.87) und die wichtigsten Treiber offenlegt.
+- **AIoT im Wassermanagement (TDWI 2025)** — Konzept für datengestützte Bewässerungsplanung, präsentiert im Student Corner der TDWI-Konferenz.
+- **Funnel-Analyse (in Arbeit)** — Auswertung des Nutzer-Funnels, um Absprungpunkte und Conversion-Hebel im E-Commerce sichtbar zu machen.
+
 ---
 
 ## Tech Stack
