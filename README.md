@@ -72,6 +72,7 @@ Was ich bisher gebaut habe:
   <img src="Supply_Chain.png" width="100%" alt="Supply Chain Projekt" />
 </p>
 
+| | |
 |---|---|
 | **Problem** | Lieferkettendaten lagen verteilt und unstrukturiert vor — kein zentrales Bild der Supply-Chain-Lage |
 | **Lösung** | Vollautomatisierte End-to-End-Pipeline: Rohdaten → DuckDB Warehouse → dbt → Power BI Dashboard |
@@ -101,6 +102,7 @@ Was ich bisher gebaut habe:
   <img src="F1_Projekt.png" width="100%" alt="F1 Projekt" />
 </p>
 
+| | |
 |---|---|
 | **Problem** | Formel-1-Renndaten manuell abrufen und auswerten — ineffizient und fehleranfällig |
 | **Lösung** | Vollautomatisierte Pipeline: 10 OpenF1-API-Endpunkte → DuckDB Warehouse → dbt → Power BI |
@@ -130,18 +132,27 @@ Was ich bisher gebaut habe:
   <img src="Streamlit.png" width="100%" alt="Kundenabwanderung-Projekt" />
 </p>
 
-
+| | |
 |---|---|
-| **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
-| **Lösung** | Klassifikationsmodell in Python zur Vorhersage individuellen Abwanderungsrisikos |
-| **Ergebnis** | ROC-AUC: **0.87** |
+| **Problem** | Telekommunikationsanbieter verlieren Kunden, ohne Warnsignale früh zu erkennen. Neukundengewinnung ist 5–7x teurer als Bestandskundenpflege. |
+| **Lösung** | Drei ML-Modelle (Logistic Regression, Random Forest, XGBoost) auf dem Telco-Churn-Dataset (7.043 Kunden), eingebettet in eine interaktive Streamlit-App zur Risikobewertung einzelner Kunden in Echtzeit. |
+| **Ergebnis** | Logistic Regression als finales Modell, AUC-ROC **0.84** — bewusst gewählt wegen besserer Generalisierung und voller Interpretierbarkeit. |
+
+**Methodik**
+
+- Explorative Datenanalyse, Modelltraining und Vergleich der drei Modelle (80/20-Split, StandardScaling)
+- Auswahl nach Generalisierung statt Komplexität: Logistic Regression schlägt die Ensemble-Modelle bei ~7.000 Zeilen und vielen kategorischen Features
+- Deployment als Streamlit-App mit farbcodiertem Risiko-Score und Erklärung der individuellen Treiber
 
 **Wichtige Erkenntnisse**
 
-- Nutzer mit geringem Engagement kündigen deutlich häufiger
-- Preisstufe korreliert stark mit Kündigungen
+- Vertragstyp ist der stärkste Hebel: Monatsverträge kündigen zu 43 %, Zweijahresverträge nur zu 3 %
+- OnlineSecurity und TechSupport halbieren die Churn-Rate (über 41 % ohne, 14–15 % mit)
+- Die ersten 12 Monate sind die kritischste Phase; Electronic-Check-Zahler kündigen fast 3x häufiger
 
-`Python` `Pandas` `Scikit-Learn` `PostgreSQL`
+[**Live-App ausprobieren →**](https://churn-analysis-buck.streamlit.app/)
+
+`Python` `Pandas` `Scikit-Learn` `XGBoost` `Streamlit`
 
 ---
 
@@ -151,6 +162,7 @@ Was ich bisher gebaut habe:
   <img src="Concept_Poster.png" width="100%" alt="TDWI Projekt" />
 </p>
 
+| | |
 |---|---|
 | **Kontext** | Konzept ausgewählt für die **TDWI Student Corner 2025**, eine kuratierte Bühne für studentische Data- & AI-Projekte auf einer der führenden europäischen Konferenzen für Data, Analytics & AI. Unser Team vertrat dort die Universität Stuttgart. |
 | **Problem** | 70 % des menschlichen Wasserbedarfs entfallen auf die Lebensmittelproduktion, 40 % davon hängen an bewässerter Landwirtschaft. Bei sinkenden Süßwasserreserven wird präzise Bewässerung zur Notwendigkeit. |
@@ -176,17 +188,25 @@ Was ich bisher gebaut habe:
 
 ### Funnel Analyse (In Bearbeitung)
 
+| | |
 |---|---|
-| **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
-| **Lösung** | Klassifikationsmodell in Python zur Vorhersage individuellen Abwanderungsrisikos |
-| **Ergebnis** | ROC-AUC: **0.87** |
+| **Problem** | Wo im E-Commerce-Funnel springen Nutzer ab? Ohne dieses Wissen verpufft Marketing-Budget, weil akquirierter Traffic im „Leaky Bucket" verloren geht, statt zu konvertieren. |
+| **Lösung** | Funnel-Analyse auf Basis von GA4-Eventdaten aus BigQuery, untersucht auf Event-, User- und Session-Ebene inklusive Drop-offs, Zeitabständen und Segmentierung nach Gerät, Nutzertyp und Land. |
+| **Impact** | Zwei kritische Lecks präzise lokalisiert, mit konkreten Optimierungshebeln, bevor zusätzliches Budget in Traffic fließt. |
+
+**Methodik**
+
+- GA4-E-Commerce-Daten in BigQuery abgefragt und in einem Jupyter Notebook ausgewertet
+- Funnel-Logik, Drop-off-Berechnung und Segmentierung nach Gerät, Nutzertyp und Land
+- Visualisierung der Conversion-Verluste pro Schritt mit Plotly
 
 **Wichtige Erkenntnisse**
 
-- Nutzer mit geringem Engagement kündigen deutlich häufiger
-- Preisstufe korreliert stark mit Kündigungen
+- Größter Verlust zwischen `view_item` und `add_to_cart`: nur 16,79 % gehen weiter
+- Zweite Hürde im Checkout zwischen `begin_checkout` und `add_shipping_info`: nur 20,71 % Step-Conversion
+- Wiederkehrende Nutzer konvertieren mit 4,95 % deutlich besser als neue mit 0,87 %, ein klarer Hebel für Trust-Elemente und Aktivierung neuer User
 
-`Python` `Pandas` `Scikit-Learn` `PostgreSQL`
+`BigQuery SQL` `Python` `bigframes` `Pandas` `Plotly`
 
 ---
 
@@ -207,13 +227,13 @@ Was ich bisher gebaut habe:
 
 ## Derzeit am Lernen
 
-`Advanced SQL für Analytics` &nbsp;·&nbsp; `Data Engineering` &nbsp;·&nbsp; `Production ML Pipelines`
+`Data Engieering` &nbsp;·&nbsp; `Analytics Engineering` &nbsp;·&nbsp; `Power BI`
 
 ---
 
 ## Verfügbar für
 
-**Data Analyst · Business Intelligence Analyst · Junior Data Scientist**
+**Data Analyst · Business Intelligence Analyst · Junior Data Scientist · Business Analyst**
 
 📍 Remote · Deutschland · EU
 
@@ -226,7 +246,7 @@ Was ich bisher gebaut habe:
     <img src="https://img.shields.io/badge/LinkedIn_–_Marcel_Buck-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:buckdevelopmentmarcel@gmail.com">
+  <a href="mailto:mobuck@web.de">
     <img src="https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
