@@ -136,6 +136,40 @@ Mein Hintergrund im **Business Development** gibt mir ein Gespür dafür, welche
 
 ---
 
+### TDWI 2025 - Student Corner Projekt - AIoT im Wassermanagement
+
+| | |
+|---|---|
+| **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
+| **Lösung** | Klassifikationsmodell in Python zur Vorhersage individuellen Abwanderungsrisikos |
+| **Ergebnis** | ROC-AUC: **0.87** |
+
+**Wichtige Erkenntnisse**
+
+- Nutzer mit geringem Engagement kündigen deutlich häufiger
+- Preisstufe korreliert stark mit Kündigungen
+
+`Python` `Pandas` `Scikit-Learn` `PostgreSQL`
+
+---
+
+### Funnel Analyse (In Bearbeitung)
+
+| | |
+|---|---|
+| **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
+| **Lösung** | Klassifikationsmodell in Python zur Vorhersage individuellen Abwanderungsrisikos |
+| **Ergebnis** | ROC-AUC: **0.87** |
+
+**Wichtige Erkenntnisse**
+
+- Nutzer mit geringem Engagement kündigen deutlich häufiger
+- Preisstufe korreliert stark mit Kündigungen
+
+`Python` `Pandas` `Scikit-Learn` `PostgreSQL`
+
+---
+
 ## Berufserfahrung
 
 ### Business Development & Process Automation – Werkstudent
