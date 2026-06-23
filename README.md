@@ -72,7 +72,6 @@ Was ich bisher gebaut habe:
   <img src="Supply_Chain.png" width="100%" alt="Supply Chain Projekt" />
 </p>
 
-| | |
 |---|---|
 | **Problem** | Lieferkettendaten lagen verteilt und unstrukturiert vor — kein zentrales Bild der Supply-Chain-Lage |
 | **Lösung** | Vollautomatisierte End-to-End-Pipeline: Rohdaten → DuckDB Warehouse → dbt → Power BI Dashboard |
@@ -102,7 +101,6 @@ Was ich bisher gebaut habe:
   <img src="F1_Projekt.png" width="100%" alt="F1 Projekt" />
 </p>
 
-| | |
 |---|---|
 | **Problem** | Formel-1-Renndaten manuell abrufen und auswerten — ineffizient und fehleranfällig |
 | **Lösung** | Vollautomatisierte Pipeline: 10 OpenF1-API-Endpunkte → DuckDB Warehouse → dbt → Power BI |
@@ -133,7 +131,6 @@ Was ich bisher gebaut habe:
 </p>
 
 
-| | |
 |---|---|
 | **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
 | **Lösung** | Klassifikationsmodell in Python zur Vorhersage individuellen Abwanderungsrisikos |
@@ -148,30 +145,37 @@ Was ich bisher gebaut habe:
 
 ---
 
-### [TDWI 2025 - Student Corner Projekt - AIoT im Wassermanagement] (https://github.com/Buck-Data/AIoT-Smart-Irrigation-System)
+### [TDWI 2025 - Student Corner Projekt - AIoT im Wassermanagement](https://github.com/Buck-Data/AIoT-Smart-Irrigation-System)
 
 <p align="center">
   <img src="Concept_Poster.png" width="100%" alt="TDWI Projekt" />
 </p>
 
-| | |
 |---|---|
-| **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
-| **Lösung** | Klassifikationsmodell in Python zur Vorhersage individuellen Abwanderungsrisikos |
-| **Ergebnis** | ROC-AUC: **0.87** |
+| **Kontext** | Konzept ausgewählt für die **TDWI Student Corner 2025**, eine kuratierte Bühne für studentische Data- & AI-Projekte auf einer der führenden europäischen Konferenzen für Data, Analytics & AI. Unser Team vertrat dort die Universität Stuttgart. |
+| **Problem** | 70 % des menschlichen Wasserbedarfs entfallen auf die Lebensmittelproduktion, 40 % davon hängen an bewässerter Landwirtschaft. Bei sinkenden Süßwasserreserven wird präzise Bewässerung zur Notwendigkeit. |
+| **Lösung** | Konzeptioneller AIoT-Ansatz, der IoT-Sensordaten, multispektrale Drohnenbilder, Echtzeit-Wetterdaten und KI-Analytik zu automatisierten Bewässerungsempfehlungen verbindet. |
+| **Zielwirkung** | Wasserverbrauch ≥ 20 % senken, manuellen Planungsaufwand ≥ 50 % reduzieren. |
+
+**Methodik**
+
+- Dreistufige Architektur: Edge (Sensoren, Aktoren) → Platform (Data Lakehouse, ML-Ops) → Enterprise (Steuerung, Business-Logik)
+- KI-Modellkombination: LSTM für Zeitreihen-Prognosen (Bodenfeuchte, Wettertrends), CNN für Drohnenbild-Analyse (Vegetationsstress), Random Forest zur Konsolidierung in konkrete Bewässerungspläne
+- Data-Lakehouse-Architektur für heterogene Datenformate und skalierbares ML-Training
+- „Human in the Loop"-Prinzip sowie strukturiertes Risiko- und Qualitätsmanagement (RMSE, Recall priorisiert)
 
 **Wichtige Erkenntnisse**
 
-- Nutzer mit geringem Engagement kündigen deutlich häufiger
-- Preisstufe korreliert stark mit Kündigungen
+- Präzise Bewässerung lässt sich aus der Kombination von Sensor-, Bild- und Wetterdaten ableiten
+- Recall ist die kritische Metrik, da verlässliche Erkennung von Trockenzonen Ernteausfälle verhindert
+- Architektur-Trade-off bewusst abgewogen: höhere Anfangskomplexität gegen langfristige Skalierbarkeit und Governance
 
-`Python` `Pandas` `Scikit-Learn` `PostgreSQL`
+`AIoT` `LSTM` `CNN` `Random Forest` `Data Lakehouse` `IoT`
 
 ---
 
 ### Funnel Analyse (In Bearbeitung)
 
-| | |
 |---|---|
 | **Problem** | Unternehmen verlieren Kunden, ohne Warnsignale frühzeitig zu erkennen |
 | **Lösung** | Klassifikationsmodell in Python zur Vorhersage individuellen Abwanderungsrisikos |
