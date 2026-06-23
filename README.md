@@ -114,7 +114,7 @@ Was ich bisher gebaut habe:
 - Parallele API-Abfragen mit 4 Workern (~4x schneller als sequentiell)
 - Zweischichtiges dbt-Modell: Staging (Bereinigung) → Sternschema (Dims + Facts)
 - 69 automatisierte Datentests (not_null, unique, referentielle Integrität, Geschäftslogik)
-- Wöchentliche CI/CD-Pipeline via GitHub Actions (jeden Montag 06:00 UTC)
+- Wöchentliche CI/CD-Pipeline via GitHub Actions (jeden Montag nach einem Rennwochenende)
 
 **Wichtige Erkenntnisse**
 
